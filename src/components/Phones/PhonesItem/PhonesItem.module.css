@@ -1,0 +1,67 @@
+.phones {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+.phones h3 {
+  margin: 0 0 0.25rem 0;
+}
+
+.price {
+  margin-top: 0.25rem;
+  font-weight: bold;
+  color: #02a2ad;
+  font-size: 1.25rem;
+}
+.product-item {
+  position: relative;
+  border-radius: 8px;
+  box-shadow: rgba(50, 50, 93, 0.05) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.05) 0px 1px 3px -1px;
+  transition: transition-ease;
+}
+.category {
+  position: absolute;
+  left: -5px;
+  top: 1.6rem;
+  background-color: rgb(0, 195, 255);
+  color: white;
+  font-size: 13px;
+  text-transform: capitalize;
+  padding: 0.2rem 1rem;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+img {
+  padding-bottom: 4px;
+  margin-bottom: 12px;
+  height: 250px;
+  overflow: hidden !important;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.brand {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  padding-bottom: 0.6rem;
+}
+.title {
+  font-size: 14.5px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+.price {
+  position: relative;
+}
+
+.discount {
+  font-size: 13px;
+  font-weight: 600;
+  font-family: font-family-poppins;
+  color: darken(rgb(0, 47, 255), 5%);
+}
+.img-cover{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
